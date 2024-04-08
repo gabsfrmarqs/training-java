@@ -7,6 +7,7 @@ public class controlflow {
         Scanner input = new Scanner(System.in);
         System.out.print("Insert a number: ");
         numero = input.nextInt(); // i mean ok but whats the point
+        input.close();
 
         if (numero != 39){
             System.out.println("Oh no its time to die =)");
