@@ -8,7 +8,13 @@ public class functions {
             System.out.println("lelelele");
         }
     }
+
+    public static int number(){
+        return 39;
+    }
+
     public static void main(String[] args){
         saySomething(39);
+        System.out.println(number());
     }
 }
